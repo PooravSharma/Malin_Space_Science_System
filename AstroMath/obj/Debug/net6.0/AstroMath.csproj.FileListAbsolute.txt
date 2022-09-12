@@ -1,0 +1,12 @@
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\bin\Debug\net6.0\AstroMath.deps.json
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\bin\Debug\net6.0\AstroMath.dll
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\bin\Debug\net6.0\AstroMath.pdb
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.csproj.AssemblyReference.cache
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.AssemblyInfoInputs.cache
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.AssemblyInfo.cs
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.csproj.CoreCompileInputs.cache
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.dll
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\refint\AstroMath.dll
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\AstroMath.pdb
+C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\DLL\AstroMath\AstroMath\obj\Debug\net6.0\ref\AstroMath.dll
