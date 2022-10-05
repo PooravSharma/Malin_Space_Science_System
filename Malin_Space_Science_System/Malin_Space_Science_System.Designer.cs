@@ -91,7 +91,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Malin_Space_Science_System";
-            this.Text = "Form1";
+            this.Text = "Malin_Space_Science_System";
             this.ResumeLayout(false);
 
         }
