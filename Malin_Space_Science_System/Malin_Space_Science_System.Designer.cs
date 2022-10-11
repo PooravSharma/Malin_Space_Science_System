@@ -52,6 +52,12 @@
             this.label_sDistance = new System.Windows.Forms.Label();
             this.label_Kelvin = new System.Windows.Forms.Label();
             this.label_eHorizon = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.languangesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button_DnLmode = new System.Windows.Forms.Button();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_sVelocity
@@ -263,11 +269,53 @@
             this.label_eHorizon.TabIndex = 7;
             this.label_eHorizon.Text = "Event Horizon:";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(702, 24);
+            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.languangesToolStripMenuItem,
+            this.colorToolStripMenuItem});
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.optionsToolStripMenuItem.Text = "    Options ";
+            // 
+            // languangesToolStripMenuItem
+            // 
+            this.languangesToolStripMenuItem.Name = "languangesToolStripMenuItem";
+            this.languangesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.languangesToolStripMenuItem.Text = "Languanges ";
+            // 
+            // colorToolStripMenuItem
+            // 
+            this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.colorToolStripMenuItem.Text = "Customize";
+            // 
+            // button_DnLmode
+            // 
+            this.button_DnLmode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_DnLmode.Location = new System.Drawing.Point(600, 12);
+            this.button_DnLmode.Name = "button_DnLmode";
+            this.button_DnLmode.Size = new System.Drawing.Size(72, 37);
+            this.button_DnLmode.TabIndex = 10;
+            this.button_DnLmode.UseVisualStyleBackColor = true;
+            // 
             // Malin_Space_Science_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 301);
+            this.Controls.Add(this.button_DnLmode);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label_eHorizon);
             this.Controls.Add(this.label_Kelvin);
             this.Controls.Add(this.label_mBlackhole);
@@ -294,6 +342,8 @@
             this.Controls.Add(this.button_sVelocity);
             this.Name = "Malin_Space_Science_System";
             this.Text = "Malin_Space_Science_System";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,6 +375,11 @@
         private System.Windows.Forms.Label label_sDistance;
         private System.Windows.Forms.Label label_Kelvin;
         private System.Windows.Forms.Label label_eHorizon;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem languangesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem colorToolStripMenuItem;
+        private System.Windows.Forms.Button button_DnLmode;
     }
 }
 
