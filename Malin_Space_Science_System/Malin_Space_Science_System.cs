@@ -17,6 +17,6 @@ namespace Malin_Space_Science_System
             InitializeComponent();
         }
 
-     
+       
     }
 }
