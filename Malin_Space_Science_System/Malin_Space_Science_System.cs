@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AstroMath;
 
 namespace Malin_Space_Science_System
 {
@@ -17,6 +18,56 @@ namespace Malin_Space_Science_System
             InitializeComponent();
         }
 
-        
+        #region Methods 
+        private void FilterTarget(TextBox t, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (ch == 46 && t.Text.IndexOf('.') !=-1)
+            {
+                e.Handled =true;
+                return;
+            }
+            if (!Char.IsDigit(ch) && ch !=8 && ch != 46)
+            {
+                e.Handled = true;
+            }
+        }
+        #endregion
+
+        #region Buttons
+        private void button_sVelocity_Click(object sender, EventArgs e)
+        {
+            textBox_sVelocityoutput.Clear();
+            double oWavelength = double.Parse(textBox_Owavelengthinput.Text);
+            double rWavelength = double.Parse(textBox_Rwavelengthinput.Text);
+            double starVelocity = AstroMath.Calculate.Star_Velocity(oWavelength, rWavelength);
+            textBox_sVelocityoutput.Text = starVelocity.ToString();
+        }
+        private void button_sDistance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_kConvert_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_eHorizon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_Owavelengthinput_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_Owavelengthinput, e);
+        }
+
+        private void textBox_Rwavelengthinput_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_Rwavelengthinput, e);
+        }
+        #endregion
+
     }
 }
