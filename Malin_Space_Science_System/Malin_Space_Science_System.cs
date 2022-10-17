@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AstroMath;
+using Astro_Math;
 
 namespace Malin_Space_Science_System
 {
@@ -40,7 +40,7 @@ namespace Malin_Space_Science_System
             textBox_sVelocityoutput.Clear();
             double oWavelength = double.Parse(textBox_Owavelengthinput.Text);
             double rWavelength = double.Parse(textBox_Rwavelengthinput.Text);
-            double starVelocity = AstroMath.Calculate.Star_Velocity(oWavelength, rWavelength);
+            double starVelocity = Astro_Math.Calculate.Star_Velocity(rWavelength, oWavelength);
             textBox_sVelocityoutput.Text = starVelocity.ToString();
         }
         private void button_sDistance_Click(object sender, EventArgs e)
