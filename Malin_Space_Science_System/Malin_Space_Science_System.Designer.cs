@@ -111,6 +111,7 @@
             // 
             this.textBox_sVelocityoutput.Location = new System.Drawing.Point(522, 89);
             this.textBox_sVelocityoutput.Name = "textBox_sVelocityoutput";
+            this.textBox_sVelocityoutput.ReadOnly = true;
             this.textBox_sVelocityoutput.Size = new System.Drawing.Size(150, 20);
             this.textBox_sVelocityoutput.TabIndex = 5;
             // 
@@ -125,6 +126,7 @@
             // 
             this.textBox_sDistanceoutput.Location = new System.Drawing.Point(522, 150);
             this.textBox_sDistanceoutput.Name = "textBox_sDistanceoutput";
+            this.textBox_sDistanceoutput.ReadOnly = true;
             this.textBox_sDistanceoutput.Size = new System.Drawing.Size(150, 20);
             this.textBox_sDistanceoutput.TabIndex = 5;
             // 
@@ -139,6 +141,7 @@
             // 
             this.textBox__Kelvinoutput.Location = new System.Drawing.Point(522, 196);
             this.textBox__Kelvinoutput.Name = "textBox__Kelvinoutput";
+            this.textBox__Kelvinoutput.ReadOnly = true;
             this.textBox__Kelvinoutput.Size = new System.Drawing.Size(150, 20);
             this.textBox__Kelvinoutput.TabIndex = 5;
             // 
@@ -153,6 +156,7 @@
             // 
             this.textBox_eHorizonoutput.Location = new System.Drawing.Point(522, 243);
             this.textBox_eHorizonoutput.Name = "textBox_eHorizonoutput";
+            this.textBox_eHorizonoutput.ReadOnly = true;
             this.textBox_eHorizonoutput.Size = new System.Drawing.Size(150, 20);
             this.textBox_eHorizonoutput.TabIndex = 5;
             // 
