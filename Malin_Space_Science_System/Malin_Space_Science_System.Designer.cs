@@ -66,6 +66,7 @@
             this.button_sVelocity = new System.Windows.Forms.Button();
             this.textBox_horizonPower = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -306,25 +307,25 @@
             this.languages_German,
             this.languages_French});
             this.menuItem_Languanges.Name = "menuItem_Languanges";
-            this.menuItem_Languanges.Size = new System.Drawing.Size(168, 26);
+            this.menuItem_Languanges.Size = new System.Drawing.Size(180, 26);
             this.menuItem_Languanges.Text = "Languanges ";
             // 
             // languages_English
             // 
             this.languages_English.Name = "languages_English";
-            this.languages_English.Size = new System.Drawing.Size(136, 26);
+            this.languages_English.Size = new System.Drawing.Size(180, 26);
             this.languages_English.Text = "English";
             // 
             // languages_German
             // 
             this.languages_German.Name = "languages_German";
-            this.languages_German.Size = new System.Drawing.Size(136, 26);
+            this.languages_German.Size = new System.Drawing.Size(180, 26);
             this.languages_German.Text = "German";
             // 
             // languages_French
             // 
             this.languages_French.Name = "languages_French";
-            this.languages_French.Size = new System.Drawing.Size(136, 26);
+            this.languages_French.Size = new System.Drawing.Size(180, 26);
             this.languages_French.Text = "French";
             // 
             // menuItem_Customize
@@ -335,38 +336,43 @@
             this.customize_Lable,
             this.customize_Background});
             this.menuItem_Customize.Name = "menuItem_Customize";
-            this.menuItem_Customize.Size = new System.Drawing.Size(168, 26);
+            this.menuItem_Customize.Size = new System.Drawing.Size(180, 26);
             this.menuItem_Customize.Text = "Customize";
             // 
             // customize_Buttons
             // 
             this.customize_Buttons.Name = "customize_Buttons";
-            this.customize_Buttons.Size = new System.Drawing.Size(163, 26);
+            this.customize_Buttons.Size = new System.Drawing.Size(180, 26);
             this.customize_Buttons.Text = "Buttons";
+            this.customize_Buttons.Click += new System.EventHandler(this.customize_Buttons_Click);
             // 
             // customize_Textboxes
             // 
             this.customize_Textboxes.Name = "customize_Textboxes";
-            this.customize_Textboxes.Size = new System.Drawing.Size(163, 26);
+            this.customize_Textboxes.Size = new System.Drawing.Size(180, 26);
             this.customize_Textboxes.Text = "TextBoxes";
+            this.customize_Textboxes.Click += new System.EventHandler(this.customize_Textboxes_Click);
             // 
             // customize_Lable
             // 
             this.customize_Lable.Name = "customize_Lable";
-            this.customize_Lable.Size = new System.Drawing.Size(163, 26);
+            this.customize_Lable.Size = new System.Drawing.Size(180, 26);
             this.customize_Lable.Text = "Lable";
+            this.customize_Lable.Click += new System.EventHandler(this.customize_Lable_Click);
             // 
             // customize_Background
             // 
             this.customize_Background.Name = "customize_Background";
-            this.customize_Background.Size = new System.Drawing.Size(163, 26);
+            this.customize_Background.Size = new System.Drawing.Size(180, 26);
             this.customize_Background.Text = "Background";
+            this.customize_Background.Click += new System.EventHandler(this.customize_Background_Click);
             // 
             // menuItem_Modes
             // 
             this.menuItem_Modes.Name = "menuItem_Modes";
-            this.menuItem_Modes.Size = new System.Drawing.Size(168, 26);
+            this.menuItem_Modes.Size = new System.Drawing.Size(180, 26);
             this.menuItem_Modes.Text = "Dark Mode";
+            this.menuItem_Modes.Click += new System.EventHandler(this.menuItem_Modes_Click);
             // 
             // button_sVelocity
             // 
@@ -399,6 +405,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(694, 293);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label_eHorizon);
@@ -475,6 +482,7 @@
         private System.Windows.Forms.Button button_sVelocity;
         private System.Windows.Forms.TextBox textBox_horizonPower;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
