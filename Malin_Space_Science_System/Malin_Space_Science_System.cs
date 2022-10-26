@@ -7,8 +7,10 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using Astro_Math;
 
 
@@ -122,6 +124,7 @@ namespace Malin_Space_Science_System
             }
         }
 
+
         #endregion
 
         #region Buttons
@@ -133,7 +136,7 @@ namespace Malin_Space_Science_System
                 double oWavelength = double.Parse(textBox_Owavelengthinput.Text);
                 double rWavelength = double.Parse(textBox_Rwavelengthinput.Text);
                 double starVelocity = Astro_Math.Calculate.Star_Velocity(rWavelength, oWavelength);
-                textBox_sVelocityoutput.Text = starVelocity.ToString() + " m/s";
+                textBox_sVelocityoutput.Text = starVelocity.ToString("0.000E0") + " m/s";
             }
             else
             {
@@ -145,7 +148,7 @@ namespace Malin_Space_Science_System
             if (!string.IsNullOrEmpty(textBox_Owavelengthinput.Text))
             {
                 double distance = Astro_Math.Calculate.Star_Distance(double.Parse(textBox_sDistanceinput.Text));
-                textBox_sDistanceoutput.Text = distance.ToString() + " parsec";
+                textBox_sDistanceoutput.Text = distance.ToString("0.000E0") + " parsec";
             }
             else
             {
@@ -174,11 +177,11 @@ namespace Malin_Space_Science_System
                 double blackHolemass = double.Parse(textBox_eHorizoninput.Text)* Math.Pow(10, double.Parse(textBox_horizonPower.Text));
                 double eventHorizon = Astro_Math.Calculate.EventHorizon(blackHolemass);
                 double round = Math.Round(eventHorizon, 3);
-                textBox_eHorizonoutput.Text = round.ToString() + " meters";
+                textBox_eHorizonoutput.Text = round.ToString("0.000E0") + " meters";
             }
             else
             {
-                MessageBox.Show("Celcius input box is empty", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Mass of Blackhole or Power input box is empty", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -190,6 +193,26 @@ namespace Malin_Space_Science_System
         private void textBox_Rwavelengthinput_KeyPress(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_Rwavelengthinput, e);
+        }
+
+        private void textBox_sDistanceinput_TextChanged(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_sDistanceinput, e);
+        }
+
+        private void textBox_Celciusinput_TextChanged(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_Celciusinput, e);
+        }
+
+        private void textBox_eHorizoninput_TextChanged(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_eHorizoninput, e);
+        }
+
+        private void textBox_horizonPower_TextChanged(object sender, KeyPressEventArgs e)
+        {
+            FilterTarget(textBox_horizonPower, e);
         }
 
         private void customize_Background_Click(object sender, EventArgs e)
@@ -250,9 +273,29 @@ namespace Malin_Space_Science_System
         {
             ModeChange();
         }
+        private void languages_French_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
+        private void languages_German_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
+        private void languages_English_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
 
         #endregion
-
 
     }
 }

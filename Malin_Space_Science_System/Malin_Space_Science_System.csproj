@@ -58,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Malin_Space_Science_System.de.resx">
+      <DependentUpon>Malin_Space_Science_System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Malin_Space_Science_System.fr.resx">
+      <DependentUpon>Malin_Space_Science_System.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Malin_Space_Science_System.resx">
       <DependentUpon>Malin_Space_Science_System.cs</DependentUpon>
     </EmbeddedResource>
