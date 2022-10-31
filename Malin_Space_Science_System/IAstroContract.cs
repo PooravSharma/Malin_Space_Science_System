@@ -15,7 +15,7 @@ namespace Malin_Space_Science_System
         [OperationContract]
         double Star_Distance(double arcseconds);
         [OperationContract]
-        double TemperatueChange(double celsius);
+        double TemperatureChange(double celsius);
         [OperationContract]
         double EventHorizon(double blackholeMass);
     }

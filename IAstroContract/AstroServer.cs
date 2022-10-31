@@ -19,9 +19,9 @@ namespace IAstroContract
         {
            return Calculate.Star_Distance(arcseconds);
         }
-        public double TemperatueChange(double celsius)
+        public double TemperatureChange(double celsius)
         {
-            return Calculate.TemperatueChange(celsius);
+            return Calculate.TemperatureChange(celsius);
         }
         public double EventHorizon(double blackholeMass)
         {

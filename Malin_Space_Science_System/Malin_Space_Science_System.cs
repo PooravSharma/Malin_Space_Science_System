@@ -170,7 +170,7 @@ namespace Malin_Space_Science_System
         {
             if (!string.IsNullOrEmpty(textBox_Celciusinput.Text))
             {
-                double kelvin = channel.TemperatueChange(double.Parse(textBox_Celciusinput.Text));
+                double kelvin = channel.TemperatureChange(double.Parse(textBox_Celciusinput.Text));
                 textBox__Kelvinoutput.Text = kelvin.ToString() + " degrees K";
             }
             else

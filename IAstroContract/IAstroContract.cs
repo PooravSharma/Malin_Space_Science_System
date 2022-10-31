@@ -16,7 +16,7 @@ namespace IAstroContract
         [OperationContract]
         double Star_Distance(double arcseconds);
         [OperationContract]
-        double TemperatueChange(double celsius);
+        double TemperatureChange(double celsius);
         [OperationContract]
         double EventHorizon(double blackholeMass);
     }

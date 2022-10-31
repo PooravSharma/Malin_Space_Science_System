@@ -1,0 +1,17 @@
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\bin\Release\Malin_Space_Science_System.exe.config
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\bin\Release\Malin_Space_Science_System.exe
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\bin\Release\Malin_Space_Science_System.pdb
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\bin\Release\de\Malin_Space_Science_System.resources.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\bin\Release\fr\Malin_Space_Science_System.resources.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.csproj.AssemblyReference.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.Malin_Space_Science_System.resources
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.Properties.Resources.resources
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.Malin_Space_Science_System.de.resources
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.Malin_Space_Science_System.fr.resources
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.csproj.GenerateResource.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.csproj.CoreCompileInputs.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\de\Malin_Space_Science_System.resources.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\fr\Malin_Space_Science_System.resources.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.exe
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Malin_Space_Science_System\obj\Release\Malin_Space_Science_System.pdb
