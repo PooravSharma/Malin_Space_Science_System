@@ -6,12 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.ConstrainedExecution;
+using System.ServiceModel;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Linq;
-using Astro_Math;
+
+
 
 
 namespace Malin_Space_Science_System
@@ -20,8 +21,15 @@ namespace Malin_Space_Science_System
     {
         public Malin_Space_Science_System()
         {
+
             InitializeComponent();
         }
+        static string address = "net.pipe://localhost/astro_math";
+        static NetNamedPipeBinding binding =
+        new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
+        static EndpointAddress ep = new EndpointAddress(address);
+        IAstroContract channel =
+        ChannelFactory<IAstroContract>.CreateChannel(binding, ep);
         bool modeOn;
         #region Methods 
         private void FilterTarget(TextBox t, KeyPressEventArgs e)
@@ -60,7 +68,7 @@ namespace Malin_Space_Science_System
                     lable.ForeColor = Color.White;
                 }
                 this.BackColor =Color.Black;
-                #region menuItems 
+                #region menuItems_Black
                 menuStrip1.BackColor = Color.Black;
                 menuStrip1.ForeColor = Color.FromArgb(Color.Black.ToArgb()^0xffffff);
                 menuItem_Options.BackColor = Color.Black;
@@ -108,6 +116,7 @@ namespace Malin_Space_Science_System
                     lable.ForeColor = Color.Black;
                 }
                 this.BackColor =Color.White;
+                #region menuItems_White
                 menuStrip1.BackColor = Color.White;
                 menuStrip1.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
                 menuItem_Options.BackColor = Color.White;
@@ -118,7 +127,7 @@ namespace Malin_Space_Science_System
                 menuItem_Customize.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
                 menuItem_Modes.BackColor = Color.White;
                 menuItem_Modes.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
-
+                #endregion
 
                 modeOn = false;
             }
@@ -135,7 +144,7 @@ namespace Malin_Space_Science_System
                 textBox_sVelocityoutput.Clear();
                 double oWavelength = double.Parse(textBox_Owavelengthinput.Text);
                 double rWavelength = double.Parse(textBox_Rwavelengthinput.Text);
-                double starVelocity = Astro_Math.Calculate.Star_Velocity(rWavelength, oWavelength);
+                double starVelocity = channel.Star_Velocity(rWavelength, oWavelength);
                 textBox_sVelocityoutput.Text = starVelocity.ToString("0.000E0") + " m/s";
             }
             else
@@ -145,9 +154,9 @@ namespace Malin_Space_Science_System
         }
         private void button_sDistance_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(textBox_Owavelengthinput.Text))
+            if (!string.IsNullOrEmpty(textBox_sDistanceinput.Text))
             {
-                double distance = Astro_Math.Calculate.Star_Distance(double.Parse(textBox_sDistanceinput.Text));
+                double distance = channel.Star_Distance(double.Parse(textBox_sDistanceinput.Text));
                 textBox_sDistanceoutput.Text = distance.ToString("0.000E0") + " parsec";
             }
             else
@@ -161,7 +170,7 @@ namespace Malin_Space_Science_System
         {
             if (!string.IsNullOrEmpty(textBox_Celciusinput.Text))
             {
-                double kelvin = Astro_Math.Calculate.TemperatueChange(double.Parse(textBox_Celciusinput.Text));
+                double kelvin = channel.TemperatueChange(double.Parse(textBox_Celciusinput.Text));
                 textBox__Kelvinoutput.Text = kelvin.ToString() + " degrees K";
             }
             else
@@ -175,7 +184,7 @@ namespace Malin_Space_Science_System
             if (!string.IsNullOrEmpty(textBox_eHorizoninput.Text) && !string.IsNullOrEmpty(textBox_horizonPower.Text))
             {
                 double blackHolemass = double.Parse(textBox_eHorizoninput.Text)* Math.Pow(10, double.Parse(textBox_horizonPower.Text));
-                double eventHorizon = Astro_Math.Calculate.EventHorizon(blackHolemass);
+                double eventHorizon = channel.EventHorizon(blackHolemass);
                 double round = Math.Round(eventHorizon, 3);
                 textBox_eHorizonoutput.Text = round.ToString("0.000E0") + " meters";
             }
