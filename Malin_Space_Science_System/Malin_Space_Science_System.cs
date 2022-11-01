@@ -274,6 +274,7 @@ namespace Malin_Space_Science_System
 
                     textBox.ForeColor = Color.FromArgb(colorDialog1.Color.ToArgb()^0xffffff);
                     textBox.Font = new Font(textBox.Font, FontStyle.Bold);
+                    text
                 }
 
             }

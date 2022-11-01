@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="Astro_Math, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Astro_Math.dll</HintPath>
+      <HintPath>..\Astro_Math.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
