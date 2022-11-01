@@ -4,3 +4,9 @@ C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\Astro_M
 C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\Astro_Math\Astro_Math\obj\Release\Astro_Math.csproj.CoreCompileInputs.cache
 C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\Astro_Math\Astro_Math\obj\Release\Astro_Math.dll
 C:\Users\30045900\Documents\Assessments\ComplexdataStructure\Assessment2\Astro_Math\Astro_Math\obj\Release\Astro_Math.pdb
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\bin\Release\Astro_Math.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\bin\Release\Astro_Math.pdb
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\obj\Release\Astro_Math.csproj.AssemblyReference.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\obj\Release\Astro_Math.csproj.CoreCompileInputs.cache
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\obj\Release\Astro_Math.dll
+C:\Users\30045900\Source\Repos\PooravSharma\Malin_Space_Science_System\Astro_Math\Astro_Math\obj\Release\Astro_Math.pdb

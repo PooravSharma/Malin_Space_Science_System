@@ -68,6 +68,11 @@
             this.textBox_horizonPower = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.listView = new System.Windows.Forms.ListView();
+            this.columnStarVelocity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnStarDistance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnKelvin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHorizon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -302,11 +307,42 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // listView
+            // 
+            this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnStarVelocity,
+            this.columnStarDistance,
+            this.columnKelvin,
+            this.columnHorizon});
+            this.listView.GridLines = true;
+            this.listView.HideSelection = false;
+            resources.ApplyResources(this.listView, "listView");
+            this.listView.Name = "listView";
+            this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.View = System.Windows.Forms.View.Details;
+            // 
+            // columnStarVelocity
+            // 
+            resources.ApplyResources(this.columnStarVelocity, "columnStarVelocity");
+            // 
+            // columnStarDistance
+            // 
+            resources.ApplyResources(this.columnStarDistance, "columnStarDistance");
+            // 
+            // columnKelvin
+            // 
+            resources.ApplyResources(this.columnKelvin, "columnKelvin");
+            // 
+            // columnHorizon
+            // 
+            resources.ApplyResources(this.columnHorizon, "columnHorizon");
+            // 
             // Malin_Space_Science_System
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.listView);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label_eHorizon);
             this.Controls.Add(this.label_Kelvin);
@@ -382,6 +418,11 @@
         private System.Windows.Forms.TextBox textBox_horizonPower;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.ListView listView;
+        private System.Windows.Forms.ColumnHeader columnStarVelocity;
+        private System.Windows.Forms.ColumnHeader columnStarDistance;
+        private System.Windows.Forms.ColumnHeader columnKelvin;
+        private System.Windows.Forms.ColumnHeader columnHorizon;
     }
 }
 

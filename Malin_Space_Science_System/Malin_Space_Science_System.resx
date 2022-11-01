@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_sDistance.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="button_kConvert.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 197</value>
@@ -165,7 +165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_kConvert.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="button_eHorizon.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 244</value>
@@ -189,7 +189,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_eHorizon.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="textBox_Owavelengthinput.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 83</value>
@@ -210,7 +210,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Owavelengthinput.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="textBox_sVelocityoutput.Location" type="System.Drawing.Point, System.Drawing">
     <value>522, 89</value>
@@ -231,7 +231,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_sVelocityoutput.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="textBox_sDistanceinput.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 156</value>
@@ -252,7 +252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_sDistanceinput.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="textBox_sDistanceoutput.Location" type="System.Drawing.Point, System.Drawing">
     <value>522, 150</value>
@@ -273,7 +273,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_sDistanceoutput.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="textBox_Celciusinput.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 200</value>
@@ -294,7 +294,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Celciusinput.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="textBox__Kelvinoutput.Location" type="System.Drawing.Point, System.Drawing">
     <value>522, 196</value>
@@ -315,7 +315,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox__Kelvinoutput.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="textBox_eHorizoninput.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 247</value>
@@ -336,7 +336,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_eHorizoninput.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="textBox_eHorizonoutput.Location" type="System.Drawing.Point, System.Drawing">
     <value>522, 243</value>
@@ -357,7 +357,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_eHorizonoutput.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label_input.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -387,7 +387,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_input.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label_output.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -417,7 +417,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_output.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="label_oWavelength.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -447,7 +447,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_oWavelength.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="textBox_Rwavelengthinput.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 109</value>
@@ -468,7 +468,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_Rwavelengthinput.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="label_rWavelength.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -498,7 +498,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_rWavelength.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label_pAngle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -528,7 +528,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_pAngle.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label_Celsius.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -558,7 +558,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Celsius.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label_mBlackhole.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -588,7 +588,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_mBlackhole.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label_sVelocity.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -618,7 +618,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_sVelocity.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label_sDistance.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -648,7 +648,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_sDistance.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label_Kelvin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -678,7 +678,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_Kelvin.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="label_eHorizon.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -708,25 +708,25 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_eHorizon.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
   <data name="languages_English.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="languages_English.Text" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="languages_German.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="languages_German.Text" xml:space="preserve">
     <value>German</value>
   </data>
   <data name="languages_French.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="languages_French.Text" xml:space="preserve">
     <value>French</value>
@@ -738,25 +738,25 @@
     <value>Languanges </value>
   </data>
   <data name="customize_Buttons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="customize_Buttons.Text" xml:space="preserve">
     <value>Buttons</value>
   </data>
   <data name="customize_Textboxes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="customize_Textboxes.Text" xml:space="preserve">
     <value>TextBoxes</value>
   </data>
   <data name="customize_Lable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="customize_Lable.Text" xml:space="preserve">
     <value>Lable</value>
   </data>
   <data name="customize_Background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 26</value>
+    <value>180, 26</value>
   </data>
   <data name="customize_Background.Text" xml:space="preserve">
     <value>Background</value>
@@ -804,7 +804,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="button_sVelocity.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 92</value>
@@ -828,7 +828,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_sVelocity.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="textBox_horizonPower.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 235</value>
@@ -852,7 +852,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox_horizonPower.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -882,11 +882,56 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>350, 17</value>
   </metadata>
+  <data name="columnStarVelocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="columnStarVelocity.Width" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="columnStarDistance.Text" xml:space="preserve">
+    <value>Star Distance </value>
+  </data>
+  <data name="columnStarDistance.Width" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="columnKelvin.Text" xml:space="preserve">
+    <value>Kelvin</value>
+  </data>
+  <data name="columnKelvin.Width" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="columnHorizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="columnHorizon.Width" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 273</value>
+  </data>
+  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>621, 142</value>
+  </data>
+  <data name="listView.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;listView.Name" xml:space="preserve">
+    <value>listView</value>
+  </data>
+  <data name="&gt;&gt;listView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -894,7 +939,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>694, 293</value>
+    <value>694, 449</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Malin_Space_Science_System</value>
@@ -970,6 +1015,30 @@
   </data>
   <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnStarVelocity.Name" xml:space="preserve">
+    <value>columnStarVelocity</value>
+  </data>
+  <data name="&gt;&gt;columnStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnStarDistance.Name" xml:space="preserve">
+    <value>columnStarDistance</value>
+  </data>
+  <data name="&gt;&gt;columnStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnKelvin.Name" xml:space="preserve">
+    <value>columnKelvin</value>
+  </data>
+  <data name="&gt;&gt;columnKelvin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHorizon.Name" xml:space="preserve">
+    <value>columnHorizon</value>
+  </data>
+  <data name="&gt;&gt;columnHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Malin_Space_Science_System</value>
