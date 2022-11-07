@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-
+//Poorav Sharma 
+//30045900
+//ServiceContract called “IAstroContract.cs” which is identical to the server without a reference to the AstroMath.DLL.
 namespace Malin_Space_Science_System
 {
     [ServiceContract]

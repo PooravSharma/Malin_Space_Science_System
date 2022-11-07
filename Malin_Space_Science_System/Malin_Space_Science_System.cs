@@ -52,6 +52,7 @@ namespace Malin_Space_Science_System
             }
 
         }
+        ////Amethod to chang the form’s style (colours and visual appearance).
         private void ModeChange()
         {
             if (modeOn ==false)
@@ -162,6 +163,7 @@ namespace Malin_Space_Science_System
                 menuItem_Modes.Text = "Dark Mode";
             }
         }
+        //A listview/datagrid for display of processed information from the server
         private void Display(int columnNumber, string dataValue)
         {
 
@@ -195,6 +197,7 @@ namespace Malin_Space_Science_System
 
         #endregion
 
+        //Button(s) to initiate an event and send/receive data.
         #region Buttons
         private void button_sVelocity_Click(object sender, EventArgs e)
         {
@@ -232,7 +235,6 @@ namespace Malin_Space_Science_System
             }
 
         }
-
         private void button_kConvert_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox_Celciusinput.Text))
@@ -249,7 +251,6 @@ namespace Malin_Space_Science_System
                 MessageBox.Show("Celcius input box is empty", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
         private void button_eHorizon_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox_eHorizoninput.Text) && !string.IsNullOrEmpty(textBox_horizonPower.Text))
@@ -267,37 +268,37 @@ namespace Malin_Space_Science_System
                 MessageBox.Show("Mass of Blackhole or Power input box is empty", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
+        #endregion
+        //Series of textboxes for large numeric data,
+        #region Textboxes
         private void textBox_Owavelengthinput_KeyPress(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_Owavelengthinput, e);
-        }
-
+        }      
         private void textBox_Rwavelengthinput_KeyPress(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_Rwavelengthinput, e);
         }
-
         private void textBox_sDistanceinput_TextChanged(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_sDistanceinput, e);
         }
-
         private void textBox_Celciusinput_TextChanged(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_Celciusinput, e);
         }
-
         private void textBox_eHorizoninput_TextChanged(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_eHorizoninput, e);
         }
-
         private void textBox_horizonPower_TextChanged(object sender, KeyPressEventArgs e)
         {
             FilterTarget(textBox_horizonPower, e);
         }
-
+        #endregion
+        //Menu option to change the form’s style (colours and visual appearance).
+        //Menu/Button option to select a custom colour from a colour palette (Color Dialogbox)
+        #region Customization
         private void customize_Background_Click(object sender, EventArgs e)
         {
             DialogResult colorResult = colorDialog1.ShowDialog();
@@ -367,6 +368,9 @@ namespace Malin_Space_Science_System
         {
             ModeChange();
         }
+        #endregion
+        //Menu/Button option(s) to change the language and layout for the three different countries.
+        #region Language 
         private void languages_French_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
@@ -390,9 +394,9 @@ namespace Malin_Space_Science_System
             InitializeComponent();
             languages_English.Enabled = false;
         }
-
-
         #endregion
+
+       
 
 
     }
