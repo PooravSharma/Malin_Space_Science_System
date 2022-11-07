@@ -271,26 +271,14 @@
   <data name="menuItem_Languanges.Text" xml:space="preserve">
     <value>Langages</value>
   </data>
-  <data name="customize_Buttons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
-  </data>
   <data name="customize_Buttons.Text" xml:space="preserve">
     <value>Boutons</value>
-  </data>
-  <data name="customize_Textboxes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
   </data>
   <data name="customize_Textboxes.Text" xml:space="preserve">
     <value>Zones de texte</value>
   </data>
-  <data name="customize_Lable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
-  </data>
   <data name="customize_Lable.Text" xml:space="preserve">
     <value>Étiquette</value>
-  </data>
-  <data name="customize_Background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
   </data>
   <data name="customize_Background.Text" xml:space="preserve">
     <value>Arrière plan</value>
@@ -328,7 +316,22 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>288, 250</value>
   </data>
+  <data name="columnStarVelocity.Text" xml:space="preserve">
+    <value>Vitesse des étoiles</value>
+  </data>
+  <data name="columnStarDistance.Text" xml:space="preserve">
+    <value>Distance étoile </value>
+  </data>
+  <data name="columnHorizon.Text" xml:space="preserve">
+    <value>Horizon d'événement</value>
+  </data>
+  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 283</value>
+  </data>
+  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>659, 142</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>776, 293</value>
+    <value>776, 437</value>
   </data>
 </root>

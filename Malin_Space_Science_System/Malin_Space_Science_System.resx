@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_sDistance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button_sDistance.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 154</value>
@@ -143,6 +147,9 @@
   <data name="&gt;&gt;button_sDistance.ZOrder" xml:space="preserve">
     <value>25</value>
   </data>
+  <data name="button_kConvert.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="button_kConvert.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 197</value>
   </data>
@@ -166,6 +173,9 @@
   </data>
   <data name="&gt;&gt;button_kConvert.ZOrder" xml:space="preserve">
     <value>24</value>
+  </data>
+  <data name="button_eHorizon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button_eHorizon.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 244</value>
@@ -365,6 +375,9 @@
   <data name="label_input.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
+  <data name="label_input.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_input.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 49</value>
   </data>
@@ -395,6 +408,9 @@
   <data name="label_output.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
+  <data name="label_output.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_output.Location" type="System.Drawing.Point, System.Drawing">
     <value>424, 49</value>
   </data>
@@ -424,6 +440,9 @@
   </data>
   <data name="label_oWavelength.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_oWavelength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label_oWavelength.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 86</value>
@@ -476,6 +495,9 @@
   <data name="label_rWavelength.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label_rWavelength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_rWavelength.Location" type="System.Drawing.Point, System.Drawing">
     <value>37, 113</value>
   </data>
@@ -505,6 +527,9 @@
   </data>
   <data name="label_pAngle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_pAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label_pAngle.Location" type="System.Drawing.Point, System.Drawing">
     <value>54, 159</value>
@@ -536,6 +561,9 @@
   <data name="label_Celsius.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label_Celsius.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_Celsius.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 203</value>
   </data>
@@ -565,6 +593,9 @@
   </data>
   <data name="label_mBlackhole.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_mBlackhole.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label_mBlackhole.Location" type="System.Drawing.Point, System.Drawing">
     <value>37, 250</value>
@@ -596,6 +627,9 @@
   <data name="label_sVelocity.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label_sVelocity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_sVelocity.Location" type="System.Drawing.Point, System.Drawing">
     <value>433, 92</value>
   </data>
@@ -625,6 +659,9 @@
   </data>
   <data name="label_sDistance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_sDistance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label_sDistance.Location" type="System.Drawing.Point, System.Drawing">
     <value>428, 154</value>
@@ -656,6 +693,9 @@
   <data name="label_Kelvin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label_Kelvin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_Kelvin.Location" type="System.Drawing.Point, System.Drawing">
     <value>470, 200</value>
   </data>
@@ -686,6 +726,9 @@
   <data name="label_eHorizon.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label_eHorizon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label_eHorizon.Location" type="System.Drawing.Point, System.Drawing">
     <value>425, 247</value>
   </data>
@@ -713,6 +756,27 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
   </metadata>
+  <data name="languages_English.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="languages_English.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAYAAACaq43EAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJ
+        TUUH5goXAjo2YiC6NgAAAoNJREFUSEvFVl9IU3EU/lFLw9UsszIqp6vZQp8C6TkQonosjP7MXsoo/ySu
+        wlomCUNfLPeSEL1Eb/ZaSa2FrDmb924O6r0oCgKpnG6iNL/O+e2utus1n+x+8O0ezu+c77uc7Z5dAR28
+        vucQ4ixExXWIPbcg9nZDOIn2G5R3yxpFCKgbayQ5ZvCZrOFa7uHeimtSq7tvRNak5xbklSGmvqe0sBA7
+        uHFDO8Q2at5NgtXelY2rbkI4qG5nF4S1XWoYgT1FfcM9/JiZ01KF6BkIoOaAD1tdPSTURuJNMm9s3ARR
+        2gFR1gnrri74/EGZ14O92NM8Y2G5jO37b2PgbgCPh2PILGoVhF+ZDH0u4u3EBxw84qfiwzKv5hlzzOCz
+        Q8eH4L8/iqj6UeZySKUXoL77gqcj72Grpq/NconqbXSXlosUnIJYcx6Npx8gmvistfzF1HQaR889knGE
+        jW1kSuSYwWdco0c08QknGoewdksnikuayedCdjIeXwCeviCu9r/GlTsv4G4dRu9DBfNaoxFCZBazOSU5
+        Xg6swVrutido8T5DR+9LePqDYE+RGp9APmeJXwMhfHsVwsybCH6GwpgOjdF1DMnRMOaTyazxpn2SHHOO
+        z7gmWxuWvazBWqyp9xGTVgfyGScmiOr6KihFdnnNUVlXCaXEgViZC/HyWsnYZpfMKUWVhbVaL2uxpt5H
+        xErpznVUiXEDxmxMJybL64i1Guu0sRv3sJaRh3nG+hEUjLpYP2q7HKvxqHW1Wu+yo9Z/6bORVfhxkabe
+        Z+nj1LIKj1OrweO0ZIGcWXmBjJNZboFwzDj2rwVy0mCB8PoyZWXWNwya8CcxaKKxaS8CWvwH/+fVB/gN
+        xjtSSb9D/f0AAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="languages_English.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 26</value>
   </data>
@@ -724,6 +788,14 @@
   </data>
   <data name="languages_German.Text" xml:space="preserve">
     <value>German</value>
+  </data>
+  <data name="languages_French.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAYAAACaq43EAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJ
+        TUUH5ggaAiEV4duLYwAAAEdJREFUSEvtzUENACAMBMEaaAIiqA48gGd+tXQIaGgRcJvse0RsI30siE78
+        dkThbcC7pROOEy4i/JpwnHAR4deE44SL/mDDBQMBzyy46uTXAAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="languages_French.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 26</value>
@@ -737,29 +809,38 @@
   <data name="menuItem_Languanges.Text" xml:space="preserve">
     <value>Languanges </value>
   </data>
+  <data name="menuItem_Languanges.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
   <data name="customize_Buttons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
+    <value>163, 26</value>
   </data>
   <data name="customize_Buttons.Text" xml:space="preserve">
     <value>Buttons</value>
   </data>
   <data name="customize_Textboxes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
+    <value>163, 26</value>
   </data>
   <data name="customize_Textboxes.Text" xml:space="preserve">
     <value>TextBoxes</value>
   </data>
   <data name="customize_Lable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
+    <value>163, 26</value>
   </data>
   <data name="customize_Lable.Text" xml:space="preserve">
     <value>Lable</value>
   </data>
   <data name="customize_Background.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 26</value>
+    <value>163, 26</value>
   </data>
   <data name="customize_Background.Text" xml:space="preserve">
     <value>Background</value>
+  </data>
+  <data name="customize_Table.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 26</value>
+  </data>
+  <data name="customize_Table.Text" xml:space="preserve">
+    <value>Table</value>
   </data>
   <data name="menuItem_Customize.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 26</value>
@@ -805,6 +886,9 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="button_sVelocity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button_sVelocity.Location" type="System.Drawing.Point, System.Drawing">
     <value>332, 92</value>
@@ -860,6 +944,9 @@
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>258, 250</value>
   </data>
@@ -912,10 +999,10 @@
     <value>246</value>
   </data>
   <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 273</value>
+    <value>18, 284</value>
   </data>
   <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>621, 142</value>
+    <value>664, 142</value>
   </data>
   <data name="listView.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -941,6 +1028,9 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>694, 449</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Malin_Space_Science_System</value>
   </data>
@@ -954,24 +1044,6 @@
     <value>menuItem_Languanges</value>
   </data>
   <data name="&gt;&gt;menuItem_Languanges.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languages_English.Name" xml:space="preserve">
-    <value>languages_English</value>
-  </data>
-  <data name="&gt;&gt;languages_English.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languages_German.Name" xml:space="preserve">
-    <value>languages_German</value>
-  </data>
-  <data name="&gt;&gt;languages_German.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languages_French.Name" xml:space="preserve">
-    <value>languages_French</value>
-  </data>
-  <data name="&gt;&gt;languages_French.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_Customize.Name" xml:space="preserve">
@@ -1002,6 +1074,12 @@
     <value>customize_Background</value>
   </data>
   <data name="&gt;&gt;customize_Background.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customize_Table.Name" xml:space="preserve">
+    <value>customize_Table</value>
+  </data>
+  <data name="&gt;&gt;customize_Table.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuItem_Modes.Name" xml:space="preserve">
@@ -1039,6 +1117,24 @@
   </data>
   <data name="&gt;&gt;columnHorizon.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languages_English.Name" xml:space="preserve">
+    <value>languages_English</value>
+  </data>
+  <data name="&gt;&gt;languages_English.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languages_German.Name" xml:space="preserve">
+    <value>languages_German</value>
+  </data>
+  <data name="&gt;&gt;languages_German.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languages_French.Name" xml:space="preserve">
+    <value>languages_French</value>
+  </data>
+  <data name="&gt;&gt;languages_French.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Malin_Space_Science_System</value>

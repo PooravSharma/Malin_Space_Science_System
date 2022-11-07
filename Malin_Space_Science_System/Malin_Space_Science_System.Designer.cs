@@ -55,14 +55,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuItem_Options = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_Languanges = new System.Windows.Forms.ToolStripMenuItem();
-            this.languages_English = new System.Windows.Forms.ToolStripMenuItem();
-            this.languages_German = new System.Windows.Forms.ToolStripMenuItem();
-            this.languages_French = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_Customize = new System.Windows.Forms.ToolStripMenuItem();
             this.customize_Buttons = new System.Windows.Forms.ToolStripMenuItem();
             this.customize_Textboxes = new System.Windows.Forms.ToolStripMenuItem();
             this.customize_Lable = new System.Windows.Forms.ToolStripMenuItem();
             this.customize_Background = new System.Windows.Forms.ToolStripMenuItem();
+            this.customize_Table = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_Modes = new System.Windows.Forms.ToolStripMenuItem();
             this.button_sVelocity = new System.Windows.Forms.Button();
             this.textBox_horizonPower = new System.Windows.Forms.TextBox();
@@ -73,6 +71,9 @@
             this.columnStarDistance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnKelvin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHorizon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.languages_English = new System.Windows.Forms.ToolStripMenuItem();
+            this.languages_German = new System.Windows.Forms.ToolStripMenuItem();
+            this.languages_French = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -231,31 +232,14 @@
             this.menuItem_Languanges.Name = "menuItem_Languanges";
             resources.ApplyResources(this.menuItem_Languanges, "menuItem_Languanges");
             // 
-            // languages_English
-            // 
-            this.languages_English.Name = "languages_English";
-            resources.ApplyResources(this.languages_English, "languages_English");
-            this.languages_English.Click += new System.EventHandler(this.languages_English_Click);
-            // 
-            // languages_German
-            // 
-            this.languages_German.Name = "languages_German";
-            resources.ApplyResources(this.languages_German, "languages_German");
-            this.languages_German.Click += new System.EventHandler(this.languages_German_Click);
-            // 
-            // languages_French
-            // 
-            this.languages_French.Name = "languages_French";
-            resources.ApplyResources(this.languages_French, "languages_French");
-            this.languages_French.Click += new System.EventHandler(this.languages_French_Click);
-            // 
             // menuItem_Customize
             // 
             this.menuItem_Customize.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.customize_Buttons,
             this.customize_Textboxes,
             this.customize_Lable,
-            this.customize_Background});
+            this.customize_Background,
+            this.customize_Table});
             this.menuItem_Customize.Name = "menuItem_Customize";
             resources.ApplyResources(this.menuItem_Customize, "menuItem_Customize");
             // 
@@ -282,6 +266,12 @@
             this.customize_Background.Name = "customize_Background";
             resources.ApplyResources(this.customize_Background, "customize_Background");
             this.customize_Background.Click += new System.EventHandler(this.customize_Background_Click);
+            // 
+            // customize_Table
+            // 
+            this.customize_Table.Name = "customize_Table";
+            resources.ApplyResources(this.customize_Table, "customize_Table");
+            this.customize_Table.Click += new System.EventHandler(this.customize_Table_Click);
             // 
             // menuItem_Modes
             // 
@@ -336,6 +326,25 @@
             // columnHorizon
             // 
             resources.ApplyResources(this.columnHorizon, "columnHorizon");
+            // 
+            // languages_English
+            // 
+            resources.ApplyResources(this.languages_English, "languages_English");
+            this.languages_English.Name = "languages_English";
+            this.languages_English.Click += new System.EventHandler(this.languages_English_Click);
+            // 
+            // languages_German
+            // 
+            this.languages_German.Image = global::Malin_Space_Science_System.Properties.Resources.german;
+            this.languages_German.Name = "languages_German";
+            resources.ApplyResources(this.languages_German, "languages_German");
+            this.languages_German.Click += new System.EventHandler(this.languages_German_Click);
+            // 
+            // languages_French
+            // 
+            resources.ApplyResources(this.languages_French, "languages_French");
+            this.languages_French.Name = "languages_French";
+            this.languages_French.Click += new System.EventHandler(this.languages_French_Click);
             // 
             // Malin_Space_Science_System
             // 
@@ -423,6 +432,7 @@
         private System.Windows.Forms.ColumnHeader columnStarDistance;
         private System.Windows.Forms.ColumnHeader columnKelvin;
         private System.Windows.Forms.ColumnHeader columnHorizon;
+        private System.Windows.Forms.ToolStripMenuItem customize_Table;
     }
 }
 

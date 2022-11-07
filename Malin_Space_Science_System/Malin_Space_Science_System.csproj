@@ -89,7 +89,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\german1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\english.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\french.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\german.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\english_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,8 +21,8 @@ namespace Malin_Space_Science_System
     {
         public Malin_Space_Science_System()
         {
-
             InitializeComponent();
+
         }
         static string address = "net.pipe://localhost/astro_math";
         static NetNamedPipeBinding binding =
@@ -31,6 +31,12 @@ namespace Malin_Space_Science_System
         IAstroContract channel =
         ChannelFactory<IAstroContract>.CreateChannel(binding, ep);
         bool modeOn;
+        bool columnData = true;
+        int i = 0;
+        int j = 0;
+        int x = 0;
+        int y = 0;
+
         #region Methods 
         private void FilterTarget(TextBox t, KeyPressEventArgs e)
         {
@@ -93,8 +99,13 @@ namespace Malin_Space_Science_System
                 customize_Lable.ForeColor = Color.FromArgb(Color.Black.ToArgb()^0xffffff);
                 customize_Textboxes.BackColor = Color.Black;
                 customize_Textboxes.ForeColor = Color.FromArgb(Color.Black.ToArgb()^0xffffff);
+                customize_Table.BackColor = Color.Black;
+                customize_Table.ForeColor = Color.FromArgb(Color.Black.ToArgb()^0xffffff);
+                listView.BackColor = Color.Black;
+                listView.ForeColor = Color.FromArgb(Color.Black.ToArgb()^0xffffff);
                 #endregion
                 modeOn = true;
+                menuItem_Modes.Text = "Light Mode";
             }
             else
             {
@@ -127,12 +138,60 @@ namespace Malin_Space_Science_System
                 menuItem_Customize.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
                 menuItem_Modes.BackColor = Color.White;
                 menuItem_Modes.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                languages_English.BackColor = Color.White;
+                languages_English.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                languages_French.BackColor = Color.White;
+                languages_French.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                languages_German.BackColor = Color.White;
+                languages_German.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                customize_Background.BackColor = Color.White;
+                customize_Background.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                customize_Buttons.BackColor = Color.White;
+                customize_Buttons.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                customize_Lable.BackColor = Color.White;
+                customize_Lable.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                customize_Textboxes.BackColor = Color.White;
+                customize_Textboxes.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
+                customize_Table.BackColor = Color.White;
+                customize_Table.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);                
+                listView.BackColor = Color.White;
+                listView.ForeColor = Color.FromArgb(Color.White.ToArgb()^0xffffff);
                 #endregion
 
                 modeOn = false;
+                menuItem_Modes.Text = "Dark Mode";
             }
         }
+        private void Display(int columnNumber, string dataValue)
+        {
 
+            if (columnData== true)
+            {
+                ListViewItem item = new ListViewItem(" ");
+                item.SubItems.Add("");
+                item.SubItems.Add("");
+                item.SubItems.Add("");
+                listView.Items.Add(item);
+                columnData = false;
+
+
+            }
+            switch (columnNumber)
+            {
+                case 1:
+                    listView.Items[i].Text = dataValue;
+                    break;
+                case 2:
+                    listView.Items[j].SubItems[1].Text = dataValue;
+                    break;
+                case 3:
+                    listView.Items[x].SubItems[2].Text = dataValue;
+                    break;
+                case 4:
+                    listView.Items[y].SubItems[3].Text = dataValue;
+                    break;
+            }
+        }
 
         #endregion
 
@@ -145,7 +204,11 @@ namespace Malin_Space_Science_System
                 double oWavelength = double.Parse(textBox_Owavelengthinput.Text);
                 double rWavelength = double.Parse(textBox_Rwavelengthinput.Text);
                 double starVelocity = channel.Star_Velocity(rWavelength, oWavelength);
-                textBox_sVelocityoutput.Text = starVelocity.ToString("0.000E0") + " m/s";
+                string outPut = starVelocity.ToString("0.000E0") + " m/s";
+                textBox_sVelocityoutput.Text =outPut;
+                Display(1, outPut);
+                i++;
+                columnData = true;
             }
             else
             {
@@ -157,7 +220,11 @@ namespace Malin_Space_Science_System
             if (!string.IsNullOrEmpty(textBox_sDistanceinput.Text))
             {
                 double distance = channel.Star_Distance(double.Parse(textBox_sDistanceinput.Text));
-                textBox_sDistanceoutput.Text = distance.ToString("0.000E0") + " parsec";
+                string outPut = distance.ToString("0.000E0") + " parsec";
+                textBox_sDistanceoutput.Text = outPut;
+                Display(2, outPut);
+                j++;
+                columnData = true;
             }
             else
             {
@@ -171,7 +238,11 @@ namespace Malin_Space_Science_System
             if (!string.IsNullOrEmpty(textBox_Celciusinput.Text))
             {
                 double kelvin = channel.TemperatureChange(double.Parse(textBox_Celciusinput.Text));
-                textBox__Kelvinoutput.Text = kelvin.ToString() + " degrees K";
+                string outPut = kelvin.ToString() + " degrees K";
+                textBox__Kelvinoutput.Text = outPut;
+                Display(3, outPut);
+                x++;
+                columnData=true;
             }
             else
             {
@@ -185,8 +256,11 @@ namespace Malin_Space_Science_System
             {
                 double blackHolemass = double.Parse(textBox_eHorizoninput.Text)* Math.Pow(10, double.Parse(textBox_horizonPower.Text));
                 double eventHorizon = channel.EventHorizon(blackHolemass);
-                double round = Math.Round(eventHorizon, 3);
-                textBox_eHorizonoutput.Text = round.ToString("0.000E0") + " meters";
+                string outPut = eventHorizon.ToString("0.000E0") + " meters";
+                textBox_eHorizonoutput.Text = outPut;
+                Display(4, outPut);
+                y++;
+                columnData =true;
             }
             else
             {
@@ -274,11 +348,21 @@ namespace Malin_Space_Science_System
 
                     textBox.ForeColor = Color.FromArgb(colorDialog1.Color.ToArgb()^0xffffff);
                     textBox.Font = new Font(textBox.Font, FontStyle.Bold);
-                    text
+
                 }
 
             }
         }
+        private void customize_Table_Click(object sender, EventArgs e)
+        {
+            DialogResult colorResult = colorDialog1.ShowDialog();
+            if (colorResult == DialogResult.OK)
+            {
+                listView.BackColor = colorDialog1.Color;
+                listView.ForeColor = Color.FromArgb(colorDialog1.Color.ToArgb()^0xffffff);
+            }
+        }
+
         private void menuItem_Modes_Click(object sender, EventArgs e)
         {
             ModeChange();
@@ -288,6 +372,7 @@ namespace Malin_Space_Science_System
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
             this.Controls.Clear();
             InitializeComponent();
+            languages_French.Enabled = false; 
         }
 
         private void languages_German_Click(object sender, EventArgs e)
@@ -295,6 +380,7 @@ namespace Malin_Space_Science_System
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de");
             this.Controls.Clear();
             InitializeComponent();
+            languages_German.Enabled = false;
         }
 
         private void languages_English_Click(object sender, EventArgs e)
@@ -302,10 +388,12 @@ namespace Malin_Space_Science_System
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
             this.Controls.Clear();
             InitializeComponent();
+            languages_English.Enabled = false;
         }
 
 
         #endregion
+
 
     }
 }
