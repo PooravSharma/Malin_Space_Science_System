@@ -5,7 +5,7 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
-
+//Server file called “AstroServer.cs” which implements the IAstroContract. A new instance of the class library method and then create four methods with the suitable input parameters and return types is added.
 namespace IAstroContract
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]

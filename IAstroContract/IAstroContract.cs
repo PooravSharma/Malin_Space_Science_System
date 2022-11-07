@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 using Astro_Math;
-
+//Poorav Sharma 
+//30045900
+//ServiceContract file called “IAstroContract.cs” which will require an Interface that references the AstroMath.DLL and four OperationContract (one for each calculation). 
 namespace IAstroContract
 {
     [ServiceContract]

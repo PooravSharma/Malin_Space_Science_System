@@ -4,7 +4,9 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
-
+//Poorav Sharma 
+//30045900
+//ServiceHost and NetNamedPipeBinding in the “Program.cs” file to provide connection for the client(s). A Console.ReadLine is added to pause the program during operation.
 namespace IAstroContract
 {
     internal class Program
